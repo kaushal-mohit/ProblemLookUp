@@ -109,7 +109,7 @@ solve.addEventListener('click',(e)=>{
             throw new Error();
         }
         x=Math.floor(Math.random()*selectedProblems.length);
-        let problemURL=`https://www.codeforces.com/contest/${selectedProblems[x]['contestId']}/problem/${selectedProblems[x]['index']}`;
+        let problemURL=`https://codeforces.com/contest/${selectedProblems[x]['contestId']}/problem/${selectedProblems[x]['index']}`;
         totalTime=(+hour.value*3600)+(+minute.value*60) + (+second.value);
         // console.log(totalTime);
         if(totalTime==0 || isNaN(totalTime)){
