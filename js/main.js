@@ -483,9 +483,10 @@ function drawCharts() {
    var tagOptions = {
       width: Math.max(600, $('#tags').width()),
       height: Math.max(600, $('#tags').width()) * 0.75,
+      backgroundColor: '#C0C0C0',
       chartArea: { width: '80%', height: '100%' },
       title: 'Tags of ' + handle,
-      pieSliceText: 'none',
+      pieSliceText: 'none', 
       legend: {
          position: 'right',
          alignment: 'center',
